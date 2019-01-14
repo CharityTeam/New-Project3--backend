@@ -12,6 +12,6 @@ router.post('/', oneCase.create, sendCase);
 router.put('/:id', oneCase.update, sendCase);
 router.delete('/:id', oneCase.delete, sendSuccess);
 
-// WE NEED TO ADD oneCase.find , NEED YOUR HELP
+
 
 module.exports = router;

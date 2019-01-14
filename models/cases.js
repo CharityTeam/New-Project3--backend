@@ -2,7 +2,7 @@ const db = require('../db/config');
 var oneCase = {};
 
 oneCase.getAll = function(req, res, next){
-    db.manyOrNone("SELECT c.name, c.details, c.city, c.email, c.phone, c.organtion_name, c.needed, c.img, SUM(d.doner_donation), (c.needed - doner_donation) AS Remaining  FROM cases c, donation d WHERE c.id = d.case_id GROUP BY d.doner_donation;")
+    db.manyOrNone("SELECT c.name, c.details, c.city, c.email, c.phone, c.organtion_name, c.needed, c.img, SUM(d.doner_donation) FROM cases c, donation d WHERE c.id = d.case_id GROUP BY c.name, c.details, c.city, c.email, c.phone, c.organtion_name, c.needed, c.img")
       .then(function(result){
           console.log(result);
         res.locals.cases = result;
@@ -15,7 +15,7 @@ oneCase.getAll = function(req, res, next){
   }
 
   oneCase.find = function (req, res, next) {
-    db.one("SELECT c.name, c.details, c.city, c.email, c.phone, c.organtion_name, c.needed, c.img, SUM(d.doner_donation), (c.needed - d.doner_donation) AS Remaining, COUNT(d.doner_donation)  FROM cases c, donation d WHERE c.id = d.case_id AND id=$1 GROUP BY d.doner_donation;", [req.params.id])
+    db.one("SELECT c.name, c.details, c.city, c.email, c.phone, c.organtion_name, c.needed, c.img, SUM(d.doner_donation) as donation, COUNT(d.doner_donation) as number_of_donors  FROM cases c, donation d WHERE c.id = d.case_id AND c.id=$1 GROUP BY c.name, c.details, c.city, c.email, c.phone, c.organtion_name, c.needed, c.img;", [req.params.id])
       .then(function (result) {
         res.locals.case = result;
         next();
