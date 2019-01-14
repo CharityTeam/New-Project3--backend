@@ -7,6 +7,7 @@ const sendCase = (req, res) => res.json(res.locals.case);
 const sendSuccess = (req, res) => res.json({ message: 'success' });
 
 router.get('/', oneCase.getAll, sendCases);
+router.get('/:id', oneCase.find, sendCase);
 router.post('/', oneCase.create, sendCase);
 router.put('/:id', oneCase.update, sendCase);
 router.delete('/:id', oneCase.delete, sendSuccess);
