@@ -5,8 +5,8 @@ const pgInstance = pgPromise();
 const config = {
   host: 'localhost',
   port: 5432,
-  database: 'colors_api',
-  user: 'jumanah' // your username here!!
+  database: 'charity_db',
+  user: 'appleapple' // your username here!!
 }
 
 const connection = pgInstance(config);
