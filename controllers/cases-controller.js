@@ -9,8 +9,9 @@ const sendSuccess = (req, res) => res.json({ message: 'success' });
 router.get('/', oneCase.getAll, sendCases);
 router.get('/:id', oneCase.find, sendCase);
 router.post('/', oneCase.create, sendCase);
+router.post('/:id', oneCase.createDonation, sendCase);
 router.put('/:id', oneCase.update, sendCase);
-router.delete('/:id', oneCase.delete, sendSuccess);
+router.delete('/:id', oneCase.delete, oneCase.deleteDonation, sendSuccess);
 
 
 
