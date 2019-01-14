@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-const oneCase = require('../models/cases')
+const oneCase = require('../models/cases.js');
 
 const sendCases = (req, res) => res.json(res.locals.cases);
 const sendCase = (req, res) => res.json(res.locals.case);
