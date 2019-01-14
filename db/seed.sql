@@ -32,3 +32,4 @@ INSERT INTO donation(doner_donation, case_id)
 VALUES (2000, 1);
 VALUES (200, 1);
 VALUES (550, 1);
+VALUES (50, 1);
