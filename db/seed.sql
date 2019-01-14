@@ -24,10 +24,10 @@ CREATE TABLE donation(
 
 
 INSERT INTO cases (name, details, city, email, phone, organtion_name, needed, img )
-VALUES ('abdullah ahmed', 'rent','riyadh', 'abdullahahmed@hotmail.com',0501245678, 'Bunyan Women Charity', 10000,'https://cdn.patchcdn.com/assets/layout/contribute/user-default.png'),
- ('ahmed abdulkarim', 'toy','jeddah', 'ahmed1234@hotmail.com',0501335678, 'Insan', 200,'https://cdn.patchcdn.com/assets/layout/contribute/user-default.png'),
- ('noha mohammed', 'wheelchair', 'damam', 'nohamohammed@hotmail.com',0501335678, 'Insan', 1500,'https://app.voxeet.com/images/user-placeholder.png'),
- ('maha ', 'books', 'riyadh', 'maha56@hotmail.com',0501333378, 'Insan', 1500,'https://app.voxeet.com/images/user-placeholder.png');
+VALUES ('abdullah ahmed', 'rent','riyadh', 'abdullahahmed@hotmail.com','0501245678', 'Bunyan Women Charity', 10000,'https://cdn.patchcdn.com/assets/layout/contribute/user-default.png'),
+ ('ahmed abdulkarim', 'toy','jeddah', 'ahmed1234@hotmail.com','0501335678', 'Insan', 5000,'https://cdn.patchcdn.com/assets/layout/contribute/user-default.png'),
+ ('noha mohammed', 'wheelchair', 'damam', 'nohamohammed@hotmail.com','0501335678', 'Insan', 1500,'https://app.voxeet.com/images/user-placeholder.png'),
+ ('maha ', 'books', 'riyadh', 'maha56@hotmail.com','0501333378', 'Insan', 1500,'https://app.voxeet.com/images/user-placeholder.png');
 
 INSERT INTO donation(doner_donation, case_id)
 VALUES (2000, 1),
@@ -35,4 +35,6 @@ VALUES (2000, 1),
  (550, 1),
  (50, 1),
  (350, 2),
- (750, 2);
+ (750, 2),
+ (50, 3),
+ (350, 4);
