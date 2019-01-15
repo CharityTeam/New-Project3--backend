@@ -1,4 +1,10 @@
+ What is The app about:
+ 
+ A web application that target indvisuals, to get their needs.  it's a non profit organization that provides a direct support to an individual. 
+ 
  technologies used:
+ -Postgres (pg-promise) & Express
+ -react
  
 Wireframes:
 
@@ -8,13 +14,20 @@ Wireframes:
 ![screen shot 2019-01-14 at 6 24 51 pm](https://user-images.githubusercontent.com/44443628/51123437-21badc80-182d-11e9-95ca-5a49ac852495.png)
 
 User Stories:
+The user can have a look at all the cases, and donate to whatever case he wants. He can make the donation through payPal.
 
 The approach taken:
+1.backend.
+2.frontend.
+
 
 Unsolved problems:
 
 Shoutouts:
+a shoutout to my team, jackie, ghadeer and trever.
 
 Resources:
+we used figma to create the wireframe and prototypes.
+https://www.figma.com/files 
 
-Any other useful information about your app:
+A link to my repo:
