@@ -53,7 +53,20 @@ oneCase.getAll = function(req, res, next){
     db.one('UPDATE cases SET name=$1, details=$2, city=$3, email=$4, phone=$5,organtion_name=$6,needed=$7,img=$8 WHERE id=$9 RETURNING *;',
           [req.body.name, req.body.details, req.body.city, req.body.email, req.body.phone, req.body.organtion_name, req.body.needed, req.body.img, req.params.id])
       .then(function (result) {
-        res.locals.case = result;
+        req.case = result;
+        next();
+      })
+      .catch(function (error) {
+        console.log(error);
+        next();
+      })
+  }
+
+  oneCase.getDonation = function (req, res, next) {
+    db.one('Select SUM(doner_donation) as sumdonation from donation where case_id = $1', [req.params.id])
+      .then(function (result) {
+        res.locals.case = req.case ;
+        res.locals.case.donation = result ; 
         next();
       })
       .catch(function (error) {
