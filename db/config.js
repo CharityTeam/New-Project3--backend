@@ -6,8 +6,8 @@ const config = {
   host: 'localhost',
   port: 5432,
   database: 'charity_db',
-  user: 'postgres', // your username here!!
-  password: 8899253
+  user: 'appleapple', // your username here!!
+
  
 }
 
