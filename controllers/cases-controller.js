@@ -10,7 +10,7 @@ router.get('/', oneCase.getAll, sendCases);
 router.post('/', oneCase.create,  oneCase.createDonation, sendCase);
 // router.post('/:id', oneCase.createDonation, sendCase);
 router.put('/:id', oneCase.update, oneCase.getDonation, sendCase);
-router.delete('/:id', oneCase.delete, oneCase.deleteDonation, sendSuccess);
+router.delete('/:id', oneCase.deleteDonation, oneCase.delete, sendSuccess);
 
 
 
