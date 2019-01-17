@@ -3,7 +3,7 @@
  A web application that target indvisuals, to get their needs.  it's a non profit organization that provides a direct support to an individual. 
  
  technologies used:
- 
+ -node.
  -Postgres (pg-promise) & Express.
  -react.
  
@@ -28,11 +28,11 @@ Unsolved problems:
 
 Shoutouts:
 
-a shoutout to my team, jackie, ghadeer and trever.
+a shoutout to my amazingteam, jackie, ghadeer and trever.
 
 Resources:
 
-we used figma to create the wireframe and prototypes.
+we used figma for the prototypes.
 https://www.figma.com/files 
 
 A link to my repo:
