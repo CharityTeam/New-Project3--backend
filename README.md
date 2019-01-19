@@ -40,7 +40,7 @@ Heroku
 
 # Unsolved problems:
 
-#Shoutouts:
+# Shoutouts:
 
 a shoutout to my amazing team, jackie, ghadeer and trever.
 
