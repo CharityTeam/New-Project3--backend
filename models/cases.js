@@ -49,6 +49,19 @@ oneCase.getAll = function(req, res, next){
       })
   }
 
+  oneCase.addDonation = function (req, res, next) {
+    db.one('INSERT INTO donation(doner_donation, case_id) VALUES ($1,$2) RETURNING *;',
+          [req.body.doner_donation, req.params.id])
+      .then(function (result) {
+        res.locals.donation = result ; 
+        next();
+      })
+      .catch(function (error) {
+        console.log(error);
+        next();
+      })
+  }
+
   oneCase.update = function (req, res, next) {
     db.one('UPDATE cases SET name=$1, details=$2, city=$3, email=$4, phone=$5,organtion_name=$6,needed=$7,img=$8 WHERE id=$9 RETURNING *;',
           [req.body.name, req.body.details, req.body.city, req.body.email, req.body.phone, req.body.organtion_name, req.body.needed, req.body.img, req.params.id])
