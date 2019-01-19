@@ -1,4 +1,4 @@
- What is the app about: 
+ ###What is the app about:###
  
  A web application that target indvisuals who live inside shelters and house care to get their needs.  it's a non profit organization that provides a direct support to an individuals. 
  
