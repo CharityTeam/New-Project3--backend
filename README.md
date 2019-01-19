@@ -1,4 +1,4 @@
- What is The app about: 
+ What is the app about: 
  
  A web application that target indvisuals who live inside shelters and house care to get their needs.  it's a non profit organization that provides a direct support to an individuals. 
  
@@ -42,7 +42,7 @@ Unsolved problems:
 
 Shoutouts:
 
-a shoutout to my amazingteam, jackie, ghadeer and trever.
+a shoutout to my amazing team, jackie, ghadeer and trever.
 
 Resources:
 
