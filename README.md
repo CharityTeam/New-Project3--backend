@@ -24,9 +24,9 @@ The user can have a look at all the cases, and donate to whatever case he/she wa
 
 # The approach taken:
 
-1. backend.
+1. Back-end.
 
-2. frontend.
+2. Front-end.
 
 3. CSS.
 
@@ -36,18 +36,19 @@ Heroku
 
 # Things to improve:
 
-- to connect our website with all charities.
+- To connect our website with all charities.
 
 # Unsolved problems:
-- adding the donation amount to the donation table in the database.
+
+- Adding the donation amount to the donation table in the database.
 
 # Shoutouts:
 
-- a shoutout to my amazing team, jackie, ghadeer and trever.
+- A shoutout to my amazing team, jackie, ghadeer and trever.
 
 # Resources:
 
-- we used figma for the prototypes.
+- We used figma for the prototypes.
 
 https://www.figma.com/files 
 
