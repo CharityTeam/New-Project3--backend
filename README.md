@@ -1,8 +1,8 @@
- # What is the app about: 
+ # What is The App About: 
  
  A web application that target indvisuals who live inside shelters and house care to get their needs.  it's a non profit organization that provides a direct support to an individuals. 
  
- # technologies used:
+ # Technologies Used:
  
  - node.
  
@@ -10,7 +10,7 @@
  
  - react.
  
-# Wireframes and prototypes:
+# Wireframes and Prototypes:
 
 ![screen shot 2019-01-19 at 5 12 41 pm](https://user-images.githubusercontent.com/44443628/51427857-75526f00-1c0d-11e9-9320-dc117cc336f7.png)
 ![screen shot 2019-01-19 at 5 10 02 pm](https://user-images.githubusercontent.com/44443628/51427829-168cf580-1c0d-11e9-951a-2eb18217f66d.png)
@@ -22,7 +22,7 @@
 Our users are people who would like to support others by donating a an amount, to help them get what they want.
 The user can have a look at all the cases, and donate to whatever case he/she wants. They can make the donation through payPal.
 
-# The approach taken:
+# The Approach Taken:
 
 1. Back-end.
 
@@ -34,11 +34,11 @@ The user can have a look at all the cases, and donate to whatever case he/she wa
 
 Heroku
 
-# Things to improve:
+# Things to Improve:
 
 - To connect our website with all charities.
 
-# Unsolved problems:
+# Unsolved Problems:
 
 - Adding the donation amount to the donation table in the database.
 
@@ -52,4 +52,4 @@ Heroku
 
 https://www.figma.com/files 
 
-# A link to our repo:
+# A Link to Our Repo:
