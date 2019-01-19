@@ -1,6 +1,6 @@
  What is The app about: 
  
- A web application that target indvisuals, to get their needs.  it's a non profit organization that provides a direct support to an individual. 
+ A web application that target indvisuals, to get their needs.  it's a non profit organization that provides a direct support to an individuals. 
  
  technologies used:
  -node.
@@ -16,6 +16,7 @@ Wireframes:
 
 User Stories:
 
+Our users are people who would like to support others by donating a an amount, to help them get what they want.
 The user can have a look at all the cases, and donate to whatever case he/she wants. They can make the donation through payPal.
 
 The approach taken:
@@ -23,6 +24,12 @@ The approach taken:
 1.backend.
 2.frontend.
 3.CSS.
+
+Hosting:
+Heroku
+
+Things to improve:
+- to connect our website with all charities.
 
 Unsolved problems:
 
@@ -35,4 +42,4 @@ Resources:
 we used figma for the prototypes.
 https://www.figma.com/files 
 
-A link to my repo:
+A link to our repo:
