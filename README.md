@@ -13,7 +13,7 @@
 Wireframes and prototypes:
 
 ![screen shot 2019-01-14 at 6 24 30 pm](https://user-images.githubusercontent.com/44443628/51123320-e3bdb880-182c-11e9-95f4-5efd7ec5c550.png)
-![screen shot 2019-01-19 at 5 06 59 pm](https://user-images.githubusercontent.com/44443628/51427785-b26a3180-1c0c-11e9-87a0-9f5ad5fdde28.png)
+![screen shot 2019-01-19 at 5 08 09 pm](https://user-images.githubusercontent.com/44443628/51427806-dded1c00-1c0c-11e9-9a01-d3b6004f5e82.png)
 ![screen shot 2019-01-14 at 6 58 12 pm](https://user-images.githubusercontent.com/44443628/51124034-5f6c3500-182e-11e9-9fdd-7e88190d789c.png)
 ![screen shot 2019-01-14 at 6 24 51 pm](https://user-images.githubusercontent.com/44443628/51123437-21badc80-182d-11e9-95ca-5a49ac852495.png)
 
