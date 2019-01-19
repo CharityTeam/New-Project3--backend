@@ -39,6 +39,7 @@ Heroku
 - to connect our website with all charities.
 
 # Unsolved problems:
+- adding the donation amount to the donation table in the database.
 
 # Shoutouts:
 
