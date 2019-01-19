@@ -1,6 +1,6 @@
  What is The app about: 
  
- A web application that target indvisuals, to get their needs.  it's a non profit organization that provides a direct support to an individuals. 
+ A web application that target indvisuals who live inside shelters and house care to get their needs.  it's a non profit organization that provides a direct support to an individuals. 
  
  technologies used:
  
