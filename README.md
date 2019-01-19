@@ -4,11 +4,11 @@
  
  # technologies used:
  
- -node.
+ - node.
  
- -Postgres (pg-promise) & Express.
+ - Postgres (pg-promise) & Express.
  
- -react.
+ - react.
  
 # Wireframes and prototypes:
 
@@ -42,11 +42,11 @@ Heroku
 
 # Shoutouts:
 
-a shoutout to my amazing team, jackie, ghadeer and trever.
+- a shoutout to my amazing team, jackie, ghadeer and trever.
 
 # Resources:
 
-we used figma for the prototypes.
+- we used figma for the prototypes.
 
 https://www.figma.com/files 
 
