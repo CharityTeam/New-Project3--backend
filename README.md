@@ -5,7 +5,9 @@
  technologies used:
  
  -node.
+ 
  -Postgres (pg-promise) & Express.
+ 
  -react.
  
 Wireframes and prototypes:
