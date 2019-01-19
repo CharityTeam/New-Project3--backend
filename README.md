@@ -24,11 +24,11 @@ The user can have a look at all the cases, and donate to whatever case he/she wa
 
 # The approach taken:
 
-1.backend.
+1. backend.
 
-2.frontend.
+2. frontend.
 
-3.CSS.
+3. CSS.
 
 # Hosting:
 
