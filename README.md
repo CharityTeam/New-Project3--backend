@@ -4,9 +4,11 @@
  
  # Technologies Used:
  
- - node.
+ - node JS.
  
- - Postgres (pg-promise) & Express.
+ - Postgres (pg-promise).
+ 
+ - Npm Express.
  
  - react.
  
