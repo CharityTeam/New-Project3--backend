@@ -37,6 +37,7 @@ Heroku
 # Things to Improve:
 
 - To connect our website with all charities.
+- Adding the Authorization.
 
 # Unsolved Problems:
 
