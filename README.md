@@ -3,11 +3,12 @@
  A web application that target indvisuals, to get their needs.  it's a non profit organization that provides a direct support to an individuals. 
  
  technologies used:
+ 
  -node.
  -Postgres (pg-promise) & Express.
  -react.
  
-Wireframes:
+Wireframes and prototypes:
 
 ![screen shot 2019-01-14 at 6 24 30 pm](https://user-images.githubusercontent.com/44443628/51123320-e3bdb880-182c-11e9-95f4-5efd7ec5c550.png)
 ![screen shot 2019-01-14 at 6 24 41 pm](https://user-images.githubusercontent.com/44443628/51123388-06e86800-182d-11e9-90af-518bcf5812b0.png)
@@ -28,9 +29,11 @@ The approach taken:
 3.CSS.
 
 Hosting:
+
 Heroku
 
 Things to improve:
+
 - to connect our website with all charities.
 
 Unsolved problems:
@@ -42,6 +45,7 @@ a shoutout to my amazingteam, jackie, ghadeer and trever.
 Resources:
 
 we used figma for the prototypes.
+
 https://www.figma.com/files 
 
 A link to our repo:
