@@ -1,4 +1,4 @@
- .What is The app about: 
+ What is The app about: 
  
  A web application that target indvisuals, to get their needs.  it's a non profit organization that provides a direct support to an individuals. 
  
