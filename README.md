@@ -41,9 +41,8 @@ Heroku
 - To connect our website with all charities.
 - Adding the Authorization.
 
-# Unsolved Problems:
+# Future Plan:
 
-- Adding the donation amount to the donation table in the database.
 
 # Shoutouts:
 
