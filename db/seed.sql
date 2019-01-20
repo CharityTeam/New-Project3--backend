@@ -1,6 +1,4 @@
-DROP DATABASE IF EXISTS charity_db;
-CREATE DATABASE charity_db;
-\c charity_db
+
 
 
 CREATE TABLE cases(

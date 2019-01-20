@@ -11,6 +11,7 @@ const config = {
  
 }
 
-const connection = pgInstance(config);
+const connection = pgInstance(process.env.DATABASE_URL || config);
+
 
 module.exports = connection;
